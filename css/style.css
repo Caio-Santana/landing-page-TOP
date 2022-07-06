@@ -100,3 +100,44 @@ footer {
 #hero-img {
     color: #e5e7eb;
 }
+
+.info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 32px;
+}
+
+.gallery {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.item-gallery {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.art {
+    border: solid 2px #3882f6;
+    border-radius: 10px;
+    height: 120px;
+    margin-bottom: 5px;
+    width: 120px;
+}
+
+.text-art {
+    color: #1f2937;
+    font-size: small;
+    height: 120px;
+    text-align: center;
+    width: 120px;
+}
