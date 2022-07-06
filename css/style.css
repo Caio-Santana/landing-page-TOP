@@ -1,3 +1,51 @@
-h1 {
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+footer {
+    align-items: center;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header, .hero, footer {
+    background-color: #1f2937;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
