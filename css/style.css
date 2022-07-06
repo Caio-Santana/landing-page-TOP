@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -31,13 +31,21 @@ footer {
 h1 {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 p {
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 16px;
+}
+
+figcaption {
+    color: #1f2937;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
 }
 
 .button {
@@ -65,7 +73,7 @@ footer {
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .header-links a {
@@ -140,4 +148,14 @@ footer {
     height: 120px;
     text-align: center;
     width: 120px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    padding: 56px;
 }
