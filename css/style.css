@@ -44,6 +44,11 @@ p {
     margin-bottom: 16px;
 }
 
+blockquote,
+figcaption {
+    max-width: 790px;
+}
+
 figcaption {
     color: #1f2937;
     font-size: medium;
@@ -55,10 +60,11 @@ figcaption {
 .button {
     color: #f9faf8;
     background-color: #3882f6;
+    border-style: none;
     border-radius: 5px;
     font-weight: bold;
     padding: 5px 24px;
-    text-decoration: none;
+    cursor: pointer;
 }
 
 .header,
@@ -71,7 +77,7 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 16px;
 }
 
 .header-logo {
@@ -88,8 +94,8 @@ footer {
 
 .hero {
     display: flex;
-    justify-content: space-between;
-    padding: 8px;
+    justify-content: center;
+    padding: 124px 16px;
 }
 
 .hero-left {
@@ -98,11 +104,12 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 32px;
+    max-width: 430px;
 }
 
 .hero-right {
     align-items: center;
-    background-color: grey;
+    background-color: #e5e7eb;
     display: flex;
     height: 200px;
     justify-content: center;
@@ -110,7 +117,9 @@ footer {
 }
 
 #hero-img {
-    color: #e5e7eb;
+    color: #1f2937;
+    height: 200px;
+    width: 400px;
 }
 
 .info {
@@ -146,6 +155,12 @@ footer {
     width: 120px;
 }
 
+.art-image {
+    border-radius: 8px;
+    height: 116px;
+    width: 116px;
+}
+
 .text-art {
     color: #1f2937;
     font-size: small;
@@ -155,33 +170,34 @@ footer {
 }
 
 .quote {
+    align-items: center;
     background-color: #e5e7eb;
     color: #1f2937;
     display: flex;
     flex-direction: column;
     font-size: 36px;
     font-style: italic;
-    padding: 56px;
+    padding: 124px 56px;
 }
 
 .call-to-action {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     height: 300px;
+    justify-content: center;
 }
 
 .call-to-action-banner {
     align-items: center;
-    display: flex;
     background-color: #3882f6;
     border-radius: 8px;
+    display: flex;
     gap: 16px;
     justify-content: center;
-    padding: 16px;
+    padding: 16px 56px;
 }
 
-.call-to-action-banner>a {
+.call-to-action-btn {
     border: 1px solid white;
     margin: 50px;
 }
